@@ -1,0 +1,10 @@
+@ECHO OFF
+c:\wamp\bin\curl\curl.exe http://localhost/espa/espautils/wos/ws-auth.php
+c:\wamp\bin\curl\curl.exe http://localhost/espa/espautils/wos/get-publications.php
+c:\wamp\bin\curl\curl.exe http://localhost/espa/espautils/wos/wos-orgs.php
+c:\wamp\bin\curl\curl.exe http://localhost/espa/espautils/wos/wos-authors.php
+c:\wamp\bin\curl\curl.exe http://localhost/espa/espautils/wos/wos-additional.php
+c:\wamp\bin\curl\curl.exe http://localhost/espa/espautils/wos/wos-orgs-update.php
+c:\wamp\bin\curl\curl.exe http://localhost/espa/espautils/wos/wos-authors-update.php
+c:\wamp\bin\curl\curl.exe http://localhost/espa/espautils/wos/wos-additional-update.php
+c:\wamp\bin\curl\curl.exe http://localhost/espa/espautils/wos/subjects-update.php
